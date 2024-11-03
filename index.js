@@ -13,5 +13,5 @@
 
 //Task 3
     let numInput = parseInt(prompt("Enter a number: "));
-    numInput += 5;   //Adding a value of 5
+    numInput += 2;  
     console.log("Result: "+numInput);
