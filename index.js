@@ -1,19 +1,17 @@
-function multiply(){
-    let firstInput = parseInt(prompt("Enter first number: "))
-    let secondInput = parseInt(prompt("Enter Second Number: "))
-    let result = firstInput * secondInput
-    console.log("Result: "+result)
-}
+//Task 1
+    let num1 = parseInt(prompt("Enter first number: "));
+    let num2 = parseInt(prompt("Enter Second Number: "));
+    let multiply = num1 * num2;
+    console.log("Result: "+multiply);
 
-function increment(){
-    let increInput = parseInt(prompt("Enter a number: "))
-    increInput++
-    console.log(increInput)
-}
 
-function compound(){
-    let num = parseInt(prompt("Enter a number: "))
-    num += 5
-    console.log(num)
-}
-  
+//Task 2
+    let num = parseInt(prompt("Enter a number: "));
+    num++;
+    console.log("Result: "+num);
+
+
+//Task 3
+    let numInput = parseInt(prompt("Enter a number: "));
+    numInput += 5;   //Adding a value of 5
+    console.log("Result: "+numInput);
